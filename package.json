@@ -6,12 +6,12 @@
 	"author": "Michael Brich <mike@toreda.com>",
 	"license": "MIT",
 	"private": false,
-	"prettier": "@toreda/prettier-config",
 	"scripts": {
 		"test": "yarn hardhat test:jest",
 		"build": "yarn compile",
 		"compile": "yarn cross-env TS_NODE_TRANSPILE_ONLY=true hardhat compile",
-		"deploy": "yarn hardhat deploy"
+		"deploy": "yarn hardhat deploy",
+		"deploy:controller": "yarn compile & ts-node ./scripts/deploy/controller.ts"
 	},
 	"files": [
 		"src/contracts"
@@ -25,6 +25,7 @@
 		"@nomiclabs/hardhat-etherscan": "^3.0.3",
 		"@nomiclabs/hardhat-waffle": "^2.0.3",
 		"@openzeppelin/contracts": "^4.5.0",
+		"@openzeppelin/contracts-upgradeable": "^4.5.2",
 		"@openzeppelin/hardhat-upgrades": "^1.17.0",
 		"@toreda/eslint-config": "^2.2.0",
 		"@toreda/prettier-config": "^1.0.1",
@@ -59,5 +60,9 @@
 		"node-fetch": "^2.6.7",
 		"marked": "^4.0.10",
 		"ansi-regex": "^5.0.1"
+	},
+	"dependencies": {
+		"@toreda/log": "^0.6.16",
+		"@toreda/time": "^0.1.5"
 	}
 }
