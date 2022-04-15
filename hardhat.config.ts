@@ -3,6 +3,7 @@ import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import "hardhat-gas-reporter";
 import 'hardhat-jest-plugin';
+import '@openzeppelin/hardhat-upgrades';
 
 import * as dotenv from "dotenv";
 
