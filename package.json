@@ -10,10 +10,13 @@
 	"scripts": {
 		"test": "yarn hardhat test:jest",
 		"build": "yarn compile",
+		"build:dev": "yarn compile & yarn make:types",
+		"make:types": "yarn hardhat typechain",
 		"compile": "yarn cross-env TS_NODE_TRANSPILE_ONLY=true hardhat compile",
 		"deploy": "yarn hardhat deploy",
 		"deploy:controller": "yarn compile & ts-node ./scripts/deploy/controller.ts",
-		"make:docs": "yarn hardhat docgen"
+		"make:docs": "yarn hardhat docgen",
+		"clean": "yarn hardhat clean"
 	},
 	"files": [
 		"src/contracts"
@@ -25,7 +28,9 @@
 		"lodash": "^4.17.21",
 		"node-fetch": "^2.6.7",
 		"marked": "^4.0.10",
-		"ansi-regex": "^5.0.1"
+		"ansi-regex": "^5.0.1",
+		"async": "^2.6.4",
+		"minimist": "^1.2.6"
 	},
 	"dependencies": {
 		"@codechecks/client": "^0.1.12",
@@ -66,6 +71,7 @@
 		"jest-sonar-reporter": "^2.0.0",
 		"prettier": "^2.6.2",
 		"prettier-plugin-solidity": "^1.0.0-beta.19",
+		"solc-0.8.4": "^1.0.1",
 		"solhint": "^3.3.7",
 		"solhint-plugin-prettier": "^0.0.5",
 		"solidity-coverage": "^0.7.20",

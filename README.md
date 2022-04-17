@@ -1,4 +1,4 @@
-# Freedom MetaDAO Governance Contracts
+# Freedom MetaDAO - Governance Contracts
 
 [![CI](https://img.shields.io/github/workflow/status/freedom-meta-dao/dao/CI?style=for-the-badge)](https://github.com/freedom-meta-dao/dao/actions)
 [![Coverage](https://img.shields.io/sonar/coverage/freedom-meta-dao_dao_?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=freedom-meta-dao_dao_)
@@ -16,3 +16,9 @@
 
 
 # Documentation
+
+
+# Website
+**Freedom MetaDAO**
+
+[https://www.freedom.tech/](https://www.freedom.tech/)
