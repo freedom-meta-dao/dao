@@ -23,14 +23,17 @@
 	],
 	"devDependencies": {},
 	"resolutions": {
-		"underscore": "^1.12.1",
-		"yargs-parser": "^5.0.1",
-		"lodash": "^4.17.21",
-		"node-fetch": "^2.6.7",
-		"marked": "^4.0.10",
 		"ansi-regex": "^5.0.1",
-		"async": "^2.6.4",
-		"minimist": "^1.2.6"
+		"adm-zip": "^0.5.2",
+		"async": "^3.2.2",
+		"lodash": "^4.17.21",
+		"marked": "^4.0.10",
+		"minimist": "^1.2.6",
+		"node-fetch": "^2.6.7",
+		"underscore": "^1.12.1",
+		"unset-value": "^2.0.1",
+		"ws": "^7.4.6",
+		"yargs-parser": "^5.0.1"
 	},
 	"dependencies": {
 		"@codechecks/client": "^0.1.12",
@@ -69,6 +72,7 @@
 		"jest": "^27.5.1",
 		"jest-environment-node-single-context": "^27.3.0",
 		"jest-sonar-reporter": "^2.0.0",
+		"marked": "^4.0.10",
 		"prettier": "^2.6.2",
 		"prettier-plugin-solidity": "^1.0.0-beta.19",
 		"solc-0.8.4": "^1.0.1",
