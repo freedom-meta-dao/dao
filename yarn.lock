@@ -1229,7 +1229,7 @@
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@toreda/eslint-config/-/eslint-config-2.2.0.tgz#ee3e0bb8d2263461ea214e04c728f498f2b09278"
 
-"@toreda/log@^0.6.12", "@toreda/log@^0.6.16":
+"@toreda/log@^0.6.16":
   version "0.6.16"
   resolved "https://registry.yarnpkg.com/@toreda/log/-/log-0.6.16.tgz#bdca453a08242b655804035d27cf788bcd9b91e1"
 
@@ -1237,19 +1237,11 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@toreda/prettier-config/-/prettier-config-1.0.1.tgz#bd6c47352aa99560617f0f4a29f16ab7c3070b86"
 
-"@toreda/strong-types@^0.28.4":
-  version "0.28.5"
-  resolved "https://registry.yarnpkg.com/@toreda/strong-types/-/strong-types-0.28.5.tgz#a62bc6f27c0f4a7835b0a50422eee3aea4956607"
+"@toreda/time@^0.1.6":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@toreda/time/-/time-0.1.7.tgz#b991f86b80da528a6df6348f67f75f9fd7c0d52e"
+  integrity sha512-zFAM7YUahBH9CdOJfPUP4XbLaPsPaKUd/q+NAH0VZXEduCIGZkwS03pWvKgzyiGrd6JPpqOcZ/zvClNLJpcvJA==
   dependencies:
-    "@toreda/log" "^0.6.12"
-    big.js "^6.1.1"
-
-"@toreda/time@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@toreda/time/-/time-0.1.5.tgz#7d5e74c31f45b09891684efad4c2ad57641f1969"
-  dependencies:
-    "@toreda/log" "^0.6.16"
-    "@toreda/strong-types" "^0.28.4"
     marked "^4.0.10"
     nanoid "^3.1.31"
     postcss "^8.2.13"
@@ -2452,10 +2444,6 @@ bcrypt-pbkdf@^1.0.0:
 bech32@1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/bech32/-/bech32-1.1.4.tgz#e38c9f37bf179b8eb16ae3a772b40c356d4832e9"
-
-big.js@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/big.js/-/big.js-6.1.1.tgz#63b35b19dc9775c94991ee5db7694880655d5537"
 
 bignumber.js@*, bignumber.js@^9.0.0, bignumber.js@^9.0.1:
   version "9.0.2"
