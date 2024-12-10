@@ -51,7 +51,7 @@
 		"@toreda/eslint-config": "^2.2.0",
 		"@toreda/log": "^0.6.16",
 		"@toreda/prettier-config": "^1.0.1",
-		"@toreda/time": "^0.1.5",
+		"@toreda/time": "^0.1.6",
 		"@typechain/ethers-v5": "^9.0.0",
 		"@typechain/hardhat": "^6.0.0",
 		"@types/jest": "^27.4.1",
